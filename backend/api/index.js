@@ -125,7 +125,7 @@ app.post('/content', upload.array('content', 10), async (req, res) => {
     try {
 
         data['contentPath'] = paths
-        const docRef = addDoc(collection(db, `contents/`), data);
+        const docRef = setDoc(doc(db, `contents/` , data['class']), data);
         res.status(200).json("Content Added")
 
     } catch (e) {
@@ -135,6 +135,7 @@ app.post('/content', upload.array('content', 10), async (req, res) => {
     }
 
 })
+
 
 app.get('/content', async (req, res) => {
 
