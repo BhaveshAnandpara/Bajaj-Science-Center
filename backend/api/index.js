@@ -73,9 +73,9 @@ app.post('/teams', upload.single('image'), async (req, res) => {
 
         }
 
-        else{
+        else {
 
-            const docRef = setDoc(doc(db, `teams/`, data["id"]), { id: data["id"] , data });
+            const docRef = setDoc(doc(db, `teams/`, data["id"]), { id: data["id"], data });
 
         }
 
@@ -189,6 +189,13 @@ app.get('/content', async (req, res) => {
 
 
 // GET and POST Methods for Testimonials
+// eg]
+// {
+//     "name" : "Bhavesh Anandpara",
+//     "imagePath" :"",
+//     "content" : "Nice",
+//     "id" : ""
+// }
 
 app.post('/testimonials', upload.single('image'), async (req, res) => {
 
@@ -214,9 +221,9 @@ app.post('/testimonials', upload.single('image'), async (req, res) => {
 
         }
 
-        else{
+        else {
 
-            const docRef = setDoc(doc(db,` testimonials/`, data["id"]), { id: data["id"] , data });
+            const docRef = setDoc(doc(db, ` testimonials/`, data["id"]), { id: data["id"], data });
 
         }
 
@@ -259,15 +266,22 @@ app.get('/testimonials', async (req, res) => {
 
 app.post('/infrastructure', upload.array('images', 10), async (req, res) => {
 
-    const data = req.body.data
-    // data : [{ name , [path] }]
+    var data = req.body.data
+    data = JSON.parse(data)
+    const files = req.files
+    var paths = []
+
+
+
+    files.forEach((ele) => {
+        paths.push(ele.path)
+    })
+
 
     try {
 
-        data.forEach(infrastructure => {
-            const docRef = addDoc(collection(db, `infrastructures/`), infrastructure);
-        });
-
+        data['imagePath'] = paths
+        const docRef = setDoc(doc(db, `infrastructures/`, data["name"]), data);
         res.status(200).json("Infrastructure Added")
 
     } catch (e) {
@@ -290,7 +304,7 @@ app.get('/infrastructure', async (req, res) => {
         }
         );
 
-        res.status(200).json(infrastructure)
+        res.status(200).json(Infrastructure)
 
 
     } catch (e) {
