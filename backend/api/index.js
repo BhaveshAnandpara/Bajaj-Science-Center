@@ -18,7 +18,7 @@ const upload = multer({ storage: storage })
 app.use(bodyParser.json());
 
 const { initializeApp } = require("firebase/app");
-const { doc, collection, getFirestore, setDoc,getDocs, addDoc } = require('firebase/firestore')
+const { doc, collection, getFirestore, setDoc, getDocs, addDoc } = require('firebase/firestore')
 
 
 const firebaseConfig = {
@@ -40,6 +40,15 @@ const PORT = 5050
 
 // GET and POST Methods for Teams
 
+// e.g 
+//  "data" :  {
+//     "name" : "Mr. Rahul Bajaj",
+//     "designation" : "President",
+//     "team" : "core",
+//     "imagePath" : "",
+//     "id" : "AbkrXdFB0QYxZKNxYfuw"
+// }
+
 app.post('/teams', upload.single('image'), async (req, res) => {
 
     let data = req.body.data
@@ -56,9 +65,20 @@ app.post('/teams', upload.single('image'), async (req, res) => {
             }
         }
 
-        const docRef = addDoc(collection(db, `teams/`), { data });
-        // data.forEach(member => {
-        // });
+        const ref = doc(collection(db, `teams/`))
+
+        if (data["id"] === "") {
+
+            const docRef = setDoc(doc(db, `teams/`, ref.id), { id: ref.id, data });
+
+        }
+
+        else{
+
+            const docRef = setDoc(doc(db, `teams/`, data["id"]), { id: data["id"] , data });
+
+        }
+
 
         res.status(200).json("Data Added")
 
@@ -69,6 +89,7 @@ app.post('/teams', upload.single('image'), async (req, res) => {
     }
 
 })
+
 
 app.get('/teams', async (req, res) => {
 
@@ -106,6 +127,7 @@ app.get('/teams', async (req, res) => {
 
 })
 
+
 // GET and POST Methods for Class Content
 
 app.post('/content', upload.array('content', 10), async (req, res) => {
@@ -125,7 +147,7 @@ app.post('/content', upload.array('content', 10), async (req, res) => {
     try {
 
         data['contentPath'] = paths
-        const docRef = setDoc(doc(db, `contents/` , data['class']), data);
+        const docRef = setDoc(doc(db, `contents/`, data['class']), data);
         res.status(200).json("Content Added")
 
     } catch (e) {
