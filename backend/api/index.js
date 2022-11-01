@@ -129,6 +129,11 @@ app.get('/teams', async (req, res) => {
 
 
 // GET and POST Methods for Class Content
+// eg]
+// {
+//     "class" : "8",
+//     "contentPath" : [ ]
+// }
 
 app.post('/content', upload.array('content', 10), async (req, res) => {
 
@@ -187,20 +192,41 @@ app.get('/content', async (req, res) => {
 
 app.post('/testimonials', upload.single('image'), async (req, res) => {
 
-    const data = req.body.data
-    // data : [{ name , imagePath , Testimonial }]
+    let data = req.body.data
+    const ImageInformatiom = req.file
+
+    data = JSON.parse(data)
+    // Data -> "Name"   : "{ name , imagePath , content }"
 
     try {
 
-        data.forEach(testimonial => {
-            const docRef = addDoc(collection(db, `testimonials/`), testimonial);
-        });
+        for (let key in data) {
+            if (key === "imagePath") {
+                data.imagePath = ImageInformatiom.path
+            }
+        }
 
-        res.status(200).json("Testimonial Added")
+        const ref = doc(collection(db, `testimonials/`))
+
+        if (data["id"] === "") {
+
+            const docRef = setDoc(doc(db, `testimonials/`, ref.id), { id: ref.id, data });
+
+        }
+
+        else{
+
+            const docRef = setDoc(doc(db,` testimonials/`, data["id"]), { id: data["id"] , data });
+
+        }
+
+
+        res.status(200).json("Data Added")
 
     } catch (e) {
 
-        console.error("Error Occured: ", e);
+        console.log(e)
+        res.status(404).json("Error Occured" + e)
 
     }
 
