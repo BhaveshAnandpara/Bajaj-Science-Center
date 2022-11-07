@@ -1,0 +1,60 @@
+/* Navbar start */
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	width: 1232px;
+	height: 78px;
+	left: 24px;
+	top: 228px;
+}
+
+
+.navContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 0px;
+	gap: 36px;
+
+	width: 1232px;
+	height: 78px;
+
+	background: rgba(137, 90, 128, 0.1);
+	border-radius: 6px;
+}
+
+.navLink li {
+	float: left;
+	padding: 25px;
+}
+
+/* .navLink li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+
+.navText {
+
+	width: 61px;
+	height: 30px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #5C5C5C;
+
+}
+
+.active {
+	color: #000;
+
+}
