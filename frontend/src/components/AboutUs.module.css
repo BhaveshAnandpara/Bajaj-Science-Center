@@ -1,0 +1,214 @@
+/* About Us Page ko 3 parts me divide kiya hai maine 
+
+ct_box1,2,3 pehle box me 1st component hai aise divided hai (ct=container) isko rename karne me easy jayega 
+
+
+
+
+
+
+and meko images nhi mili toh abhi ka bina image ke dala hai, baad me color box ko images se replace karna hai */
+
+
+
+
+
+
+
+
+
+
+
+
+.ct_box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1168px;
+    height: 1486px;
+    left: 56px;
+    top: 378px;
+}
+
+.ct_boxHead span {
+    width: 613px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Secondary */
+
+    color: #F95738;
+
+}
+
+.ct_box1 p {
+    width: 1168px;
+    height: 864px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+
+    /* dark */
+
+    color: #5C5C5C;
+}
+
+.ct_box1 .Img1 {
+    width: 1135px;
+    height: 526px;
+
+    /* background: url(Dec.jpg); */
+    background-color: red;
+
+}
+
+
+.ct_box2 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1168px;
+    height: 1239.5px;
+    /* left: 50px; */
+    top: 1600px;
+
+}
+
+.ct_box2_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1168px;
+    height: 648px;
+}
+
+.ct_box2_text span {
+
+    width: 250px;
+    height: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Secondary */
+
+    color: #F95738;
+}
+
+.ct_box2_text p {
+    width: 1168px;
+    height: 576px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+
+    /* dark */
+
+    color: #5C5C5C;
+}
+
+.ct_box2 .Img2 {
+    width: 1135px;
+    height: 567.5px;
+
+    /* background: url(Students3.jpg); */
+    background-color: aqua;
+
+}
+
+.ct_box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+
+    position: absolute;
+    width: 905px;
+    height: 220px;
+    left: 125px;
+    top: 2500px;
+
+}
+
+.ct_box3_text {
+    width: 905px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    /* dark */
+
+    color: #5C5C5C;
+}
+
+.ct_box3_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 10px;
+
+    width: 304px;
+    height: 108px;
+
+    /* Primary 2 */
+
+    background: #885A89;
+    border-radius: 8px;
+}
+
+.btnText {
+    width: 240px;
+    height: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    /* identical to box height */
+
+
+    /* Grey */
+
+    color: #DCDDDE;
+}
