@@ -31,7 +31,7 @@ nav {
 
 .navLink li {
 	float: left;
-	padding: 25px;
+	padding: 20px;
 }
 
 /* .navLink li a {
@@ -48,7 +48,7 @@ nav {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 30px;
 	color: #5C5C5C;
 
