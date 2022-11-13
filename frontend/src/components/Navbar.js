@@ -13,6 +13,7 @@ export default function Navbar() {
                                 <ul>
                                     <li><a className={NavbarCSS.navText} href="#">Home</a></li>
                                     <li><a className={NavbarCSS.navText} href="#">About Us</a></li>
+                                    <li><a className={NavbarCSS.navText} href="#">Admissions</a></li>
                                     <li><a className={NavbarCSS.navText}href="#">Infrastructure</a></li>
                                     <li><a className={NavbarCSS.navText} href="#">Student Section</a></li>
                                     <li><a className={NavbarCSS.navText} href="#">Notice Board</a></li>
