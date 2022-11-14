@@ -1,10 +1,11 @@
 import './App.css';
+import Team from '../src/Pages/Admin/Teams Page/Team'
 
 function App() {
   return (
-    <div className="App">
-      Home Page
-    </div>
+    <>
+      <Team/>
+    </>
   );
 }
 

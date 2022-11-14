@@ -17,6 +17,9 @@ const upload = multer({ storage: storage })
 
 app.use(bodyParser.json());
 
+
+  
+
 const { initializeApp } = require("firebase/app");
 const { doc, collection, getFirestore, setDoc, getDocs, addDoc } = require('firebase/firestore')
 
@@ -122,6 +125,7 @@ app.get('/teams', async (req, res) => {
 
 
     } catch (e) {
+        console.log(e);
         res.status(404).json(e)
     }
 
