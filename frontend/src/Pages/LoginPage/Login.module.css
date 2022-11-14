@@ -1,0 +1,79 @@
+/* Login form */
+.content {
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 56px;
+	position: absolute;
+	width: 596px;
+	height: 238px;
+	left: 342px;
+	top: 416px;
+}
+
+.content>form {
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 32px;
+
+	width: 596px;
+	height: 132px;
+}
+
+.logInput {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 300px 10px 40px;
+	gap: 10px;
+
+	width: 596px;
+	height: 50px;
+
+	background: rgba(136, 90, 137, 0.2);
+	border-radius: 4px;
+
+	/* font */
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #885A89;
+}
+
+.fluid_btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 40px;
+	gap: 10px;
+
+	width: 135px;
+	height: 50px;
+
+	/* Primary 2 */
+
+	background: #885A89;
+	border-radius: 5px;
+	color: #DCDDDE;
+
+
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+/* Login form ends */
