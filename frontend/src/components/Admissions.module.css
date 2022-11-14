@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+
+    position: absolute;
+    width: 1169px;
+    height: 5100px;
+    left: 56px;
+}
+
+.adm_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1168px;
+    height: 468px;
+}
+
+.title {
+    width: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #F95738;
+
+}
+
+.info {
+    width: 1168px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+
+    /* dark */
+
+    color: #5C5C5C;
+}
+
+.program_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1168px;
+    height: 1368px;
+}
+
+.program_block .title {
+    width: 320px;
+    /*Special case type hai ye*/
+}
+
+.box_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1169px;
+    height: 2468px;
+}
+
+.box_block .title {
+    width: 320px;
+    /*Special case type hai ye*/
+}
+
+.box_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1169px;
+    height: 2396px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    gap: 40px;
+
+    width: 1169px;
+    height: 299px;
+
+    background: rgba(136, 90, 137, 0.15);
+    border-radius: 8px;
+}
+
+.box>span {
+    width: 1089px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+
+    color: #2CACC9;
+
+}
+
+.box_info {
+    width: 1089px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+
+    /* dark */
+
+    color: #5C5C5C;
+}
