@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #5C5C5C;
+}
+
+.main {
+    width: 100%;
+    padding: 3% 5%;
+}
+
+h2 {
+    color: #F95738;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.cards {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(237, 230, 238, 0.4);
+    height: 70vh;
+}
+
+.img {
+    background-image: linear-gradient(337.18deg, rgba(0, 0, 0, 0.7) -2.97%, rgba(0, 0, 0, 0) 91.65%), url("./images/Rectangle\ 8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2CACC9;
+    font-size: 30px;
+}
+
+.card p {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 0;
+    color: white;
+    background-color: #885A89;
+}
+
+.end {
+    text-align: center;
+}
+
+.stud_ach {
+    margin-bottom: 50px;
+}
+
+.end h3 {
+    font-size: 20px;
+}
+
+.end button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 0;
+    font-size: 15px;
+    margin: 30px auto;
+    color: white;
+    background-color: #885A89;
+}
