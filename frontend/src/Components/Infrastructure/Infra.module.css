@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #5C5C5C;
+}
+
+.main {
+    width: 100%;
+    padding: 3% 5%;
+}
+
+h2 {
+    color: #F95738;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.cards {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.left {
+    width: 49.5%;
+    display: inline-block;
+    padding-right: 2%;
+}
+
+.right {
+    padding-left: 2%;
+    display: inline-block;
+    width: 50%;
+}
+
+.card {
+    height: 50vh;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.physics {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/pixalbay.png");
+}
+
+.ict {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/Pexels\ Photo\ by\ Pixabay\ \(1\).png");
+}
+
+.hall {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/MultipurposeHall\ 1.png");
+}
+
+.chemistry {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/Pexels\ Photo\ by\ Rodolfo\ Clix.png");
+}
+
+.maths {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/Pexels\ Photo\ by\ Monstera.png");
+}
+
+.biology {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/Pexels\ Photo\ by\ Pixabay\ \(2\).png");
+}
+
+/* linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%); */
+
+.makers {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/Students1\ 1.png");
+}
+
+.openAir {
+    background-image: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%), url("./images/DSCN0121\ 1.png");
+}
