@@ -1,28 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Header from './Components/Header/Header'
-// import HomePage from './components/HomePage';
-import AboutUs from './Pages/AboutUs/AboutUs'
-import Admission from './Pages/AdmissionPage/Admissions'
-import Footer from './Components/Footer/Footer'
+import HomePage from './Components/Homepage/HomePage'
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Login from './Pages/LoginPage/Login'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 
 function App() {
 	return (
 		<Router>
-			<Header/>
-			<Navbar />
-			
-			{/* <Login /> */}
-			{/* <HomePage /> */}
-			{/* <AboutUs /> */}
-			{/* <Admission /> */}
-			<Footer />
-
+			<Routes>
+				<Route exact path='/' element={ <HomePage/> } />
+			</Routes>
 		</Router>
 
 	);
