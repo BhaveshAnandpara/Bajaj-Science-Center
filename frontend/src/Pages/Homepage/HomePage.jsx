@@ -1,12 +1,14 @@
 import React from 'react'
 import HomeCSS from './Homepage.module.css'
-import Header from '../Header/Header'
+import Header from '../../Components/Header/Header'
+import Navbar from '../../Components/Navbar/Navbar'
 
 export default function HomePage() {
 
     return (
         <>
             <Header />
+            <Navbar/>
             <section className="homepage">
 
                 <div className={HomeCSS.main}>
