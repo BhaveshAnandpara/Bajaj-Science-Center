@@ -1,0 +1,15 @@
+.cardSec {
+    display: block;
+    background-color: var(--primary-color-light);
+    padding: 24px 42px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.cardContent {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dark);
+    text-align: center;
+    text-align: center;
+}
