@@ -1,25 +1,38 @@
-.footer{
+.footer {
     background: var(--dark);
     color: var(--gray) !important;
     border-radius: 8px;
 }
 
-.footerItems{
-    display: block;
+.footer > .header >  .orgName > p {
+    color: var(--gray) !important;
 }
 
-.footerItems > p {
-    margin: 32px 0 ;
+.footerItems {
+    display: block;
+
+}
+
+.footerItems>p {
+    margin: 32px 0;
     padding: 0 40px;
     font-weight: 600;
+
 }
 
-.footerItems > p > img{
+.footerItems>p>img {
     margin-right: 24px;
     transform: translateY(25%);
 }
 
-.footer > hr {
+.footerItems>p>span {
+    margin-right: 24px;
+    transform: translateY(25%);
+    color: var(--gray) !important;
+
+}
+
+.footer>hr {
     width: 94%;
     margin: auto;
 }
