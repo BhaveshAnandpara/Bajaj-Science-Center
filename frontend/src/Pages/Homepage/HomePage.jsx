@@ -7,8 +7,7 @@ export default function HomePage() {
 
     return (
         <>
-            <Header />
-            <Navbar/>
+
             <section className="homepage">
 
                 <div className={HomeCSS.main}>
