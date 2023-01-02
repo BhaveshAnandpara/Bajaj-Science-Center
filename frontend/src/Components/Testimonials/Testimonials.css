@@ -1,0 +1,19 @@
+.testimonialsSec {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.testimonialsSec>p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 51px;
+    color: var(--primary-color);
+
+}
+
+.testimonialsCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

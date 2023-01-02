@@ -47,27 +47,6 @@ export default function Slider() {
 
     }, [counter])
 
-
-    const position0 = {
-
-
-    }
-
-    const position2 = {
-        "display": 'block',
-        "width": '20vw',
-        "height": '20vw',
-        "borderRadius": '40px 4px 4px 4px'
-    }
-
-    const position1 = {
-        "width": '22vw',
-        "height": '22vw',
-        "transform": 'translateY(-20%)',
-        "borderRadius": '40px 4px 4px 4px',
-        "filter": 'drop-shadow(24px 24px 0px var(--primary-color-light))'
-    }
-
     function handleLeftAnimation() {
 
         if (counter === 8) {
@@ -90,8 +69,6 @@ export default function Slider() {
 
     }
 
-
-
     return (
         <>
             <section className="sliderCon  ">
@@ -99,12 +76,12 @@ export default function Slider() {
                 <img className='arrowIcons' src={leftArrow} alt="leftArrow" onClick={() => { handleLeftAnimation() }} />
 
                 <div className="imgCon ">
-                    <div id='0'  className=" imgSliderCon  prevImg ">  </div>
-                    <div id='1'  className=" imgSliderCon  currentImg ">  </div>
-                    <div id='2'  className=" imgSliderCon  nextImg ">  </div>
+                    <div id='0' className=" imgSliderCon  prevImg ">  </div>
+                    <div id='1' className=" imgSliderCon  currentImg ">  </div>
+                    <div id='2' className=" imgSliderCon  nextImg ">  </div>
                 </div>
 
-                <img  className='arrowIcons' src={rightArrow} alt="rightArrow" onClick={() => { handleRightAnimation() }} />
+                <img className='arrowIcons' src={rightArrow} alt="rightArrow" onClick={() => { handleRightAnimation() }} />
 
             </section>
         </>

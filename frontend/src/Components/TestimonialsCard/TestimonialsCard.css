@@ -1,0 +1,28 @@
+.cardCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-color-light);
+    padding: 24px 42px;
+    width: 80%;
+    border-radius: 8px;
+    margin: 40px 0px;
+}
+
+.cardCon>img {
+    width: 120px;
+    height: 120px;
+    transform: translateY(-50%);
+}
+
+.cardCon>p{
+    transform: translateY(-40px);
+}
+
+.cardCon>p:last-child {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dark);
+    text-align: center;
+}
