@@ -1,0 +1,32 @@
+.homeSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroSec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px 0;
+}
+
+
+#heroSecImage{
+    width: 30%;
+}
+
+
+
+.heroContent{
+    width: 55%;
+}
+
+.heroContent > p:last-child{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dark);
+    text-align: justify;
+}

@@ -1,0 +1,48 @@
+.sliderCon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 80vh;
+}
+
+.imgCon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.imgSliderCon {
+    overflow: hidden;
+}
+
+.img {
+    height: 100%;
+}
+
+.prevImg,
+.nextImg {
+    display: block;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 40px 4px 4px 4px;
+    filter: blur(0.8px);
+}
+
+.currentImg{
+    width: 22vw;
+    height : 22vw;
+    transform: translateY(-20%);
+    border-radius: 40px 4px 4px 4px;
+    filter: drop-shadow(24px 24px 0px var(--primary-color-light));
+}
+
+.arrowIcons {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

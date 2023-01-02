@@ -32,7 +32,8 @@ export default function Footer() {
 
                 <hr />
 
-                <p style={{ textAlign : 'center' , fontWeight : 600 , margin : '24px 0px' }} >Copyright © 2021 All Rights Reserved by Pragmizers.</p>
+    
+                <p style={{ textAlign : 'center' , fontWeight : 600 , margin : '24px 0px' , color: 'var(--gray) !important' }} >Copyright © 2021 All Rights Reserved by Pragmizers.</p>
 
 
             </section>
