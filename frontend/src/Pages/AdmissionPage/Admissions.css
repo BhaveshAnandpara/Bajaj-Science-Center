@@ -1,0 +1,16 @@
+.admissionCon{
+    margin: 32px 0px;
+}
+
+.admissionCon > p:nth-child(2) , .admissionCon > p:nth-child(4){
+
+    text-align: start;
+
+}
+
+.regularActSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

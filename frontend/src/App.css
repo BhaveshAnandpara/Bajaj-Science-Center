@@ -16,7 +16,7 @@ body {
 	width: 99vw;
 	height: 100vh;
 	font-family: var(--primary-font);
-	padding: 24px;
+	padding: 32px;
 	overflow-x: hidden;
 }
 

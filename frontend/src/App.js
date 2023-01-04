@@ -7,6 +7,7 @@ import AboutUs from './Pages/AboutUs/AboutUs'
 import Team from './Pages/Team/Team';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Admissions from './Pages/AdmissionPage/Admissions';
 
 
 
@@ -24,6 +25,7 @@ function App() {
 					<Route exact path='/home' element={<HomePage />} />
 					<Route exact path='/about' element={<AboutUs />} />
 					<Route exact path='/about/team' element={<Team />} />
+					<Route exact path='/admission' element={<Admissions />} />
 				</Routes>
 
 				<Footer/>
