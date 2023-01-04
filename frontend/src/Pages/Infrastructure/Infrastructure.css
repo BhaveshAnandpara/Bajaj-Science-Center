@@ -1,0 +1,48 @@
+.InfrastructureSec {
+    margin: 24px 0;
+}
+
+.InfrastructureSec>p:nth-child(2) {
+    text-align: justify;
+
+}
+
+.infraCon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 24px 0;
+}
+
+.labSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 20vw;
+    border-radius: 8px;
+    margin: 24px 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.labSec>img {
+    z-index: -2;
+}
+
+.labSec>div {
+    background: linear-gradient(0deg, rgba(124, 124, 124, 0.7) -11.25%, rgba(136, 90, 137, 0) 103.44%);
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    z-index: -1;
+}
+
+.labSec>p {
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
