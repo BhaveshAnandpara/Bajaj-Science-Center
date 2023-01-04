@@ -9,7 +9,7 @@ export default function TeamCard(props) {
   return (
     <>
         <div className={"" +  props.data.data.designation === 'President' ? " president teamCardSec" : "teamCardSec " }>
-                <div className="imgCon ">
+                <div className="teamImgCon ">
                     <img src={`/Media/${props.data.data.imagePath.split('Media\\')[1]}`} alt="profile" className="profileImg" />
                 </div>
                 <p className='title' >{props.data.data.name}</p>

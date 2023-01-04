@@ -2,27 +2,17 @@ import React from 'react'
 import { useRef , useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import './Testimonials.css'
-import img from '../../Assets/Media/BSCLogo.png'
 import TestimonialsCard from '../TestimonialsCard/TestimonialsCard'
+import testimonialsArr from '../../Data/Testimonials/Testimonial'
 
 export default function Testimonials() {
 
-    const testimonialsArr = [
-        {
-            "img" : img,
-            "name" : "Wade Warren",
-            "about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat metus a at ut dis accumsan feugiat feugiat vel. Euismod fames aliquet purus amet elit turpis vitae scelerisque. Mauris at lectus aliquet gravida eros. Diam morbi arcu, amet, in nunc enim, fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat metus a at ut dis accumsan feugiat feugiat vel. Euismod fames aliquet purus amet elit turpis vitae scelerisque. Mauris at lectus aliquet gravida eros. Diam morbi arcu, amet, in nunc enim, fermentum."
-        },
-        {
-            "img" : img,
-            "name" : "Jenny Wilson",
-            "about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat metus a at ut dis accumsan feugiat feugiat vel. Euismod fames aliquet purus amet elit turpis vitae scelerisque. Mauris at lectus aliquet gravida eros. Diam morbi arcu, amet, in nunc enim, fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat metus a at ut dis accumsan feugiat feugiat vel. Euismod fames aliquet purus amet elit turpis vitae scelerisque. Mauris at lectus aliquet gravida eros. Diam morbi arcu, amet, in nunc enim, fermentum."
-        }
-    ]
 
     const testimonialsCon = useRef()
 
     useEffect(() => {
+
+        console.log(testimonialsArr)
 
         let eleArr = []
         const root = createRoot(testimonialsCon.current)

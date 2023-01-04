@@ -24,15 +24,18 @@
     margin: 24px 24px;
 }
 
-.imgCon {
+.teamImgCon {
     width: 12vw;
     height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
     border: 6px solid var(--blue);
     overflow: hidden;
 }
 
-.imgCon > img {
+.teamImgCon > img {
     height: 100%;
 }
 
@@ -55,7 +58,7 @@
     
 }
 
-.president > .imgCon{
+.president > .teamImgCon{
     width: 16vw;
     height: 16vw;
 }
