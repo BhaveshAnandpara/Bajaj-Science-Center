@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 const multer = require('multer')
+const cors = require('cors');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -17,8 +18,12 @@ const upload = multer({ storage: storage })
 
 app.use(bodyParser.json());
 
-
-  
+app.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.header("Access-Control-Allow-Headers", "x-access-token, Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 const { initializeApp } = require("firebase/app");
 const { doc, collection, getFirestore, setDoc, getDocs, addDoc } = require('firebase/firestore')

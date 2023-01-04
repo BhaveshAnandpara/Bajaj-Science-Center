@@ -1,0 +1,69 @@
+.TeamSec > div{
+
+    margin: 24px 0;
+
+}
+
+.ourTeamCon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+
+}
+
+.teamCardSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 24px;
+}
+
+.imgCon {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 100%;
+    border: 6px solid var(--blue);
+    overflow: hidden;
+}
+
+.imgCon > img {
+    height: 100%;
+}
+
+.designation {
+
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #885A89;
+    text-align: center;
+    margin: 0;
+}
+
+.title{
+    margin: 10px 0px;
+}
+
+.president{
+    width: 100%;
+    
+}
+
+.president > .imgCon{
+    width: 16vw;
+    height: 16vw;
+}
+
+.president > p{
+    font-size: 32px;
+}
+
+.TeamSec > p {
+    margin: 24px 0px;
+}

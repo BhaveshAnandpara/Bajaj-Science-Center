@@ -1,0 +1,120 @@
+{
+    "coreTeam": [
+        {
+            "id": "AbkrXdFB0QYxZKNxYfuw",
+            "data": {
+                "designation": "President",
+                "id": "AbkrXdFB0QYxZKNxYfuw",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "team": "core",
+                "name": "Mr. Rahul Bajaj"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        },
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        }
+    ],
+    "teachingStaff": [
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        }
+    ],
+    "administrativeStaff": [
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        }
+    ],
+    "mentors": [
+        {
+            "id": "EZecx1vMEZs1wTLz8dhK",
+            "data": {
+                "team": "core",
+                "imagePath": "..\\..\\frontend\\public\\Media\\Prominent-Members_Rahul-Bajaj_Bajaj-Group.jpg",
+                "name": "Shri Shekhar Bajaj",
+                "id": "",
+                "designation": "Trustee"
+            }
+        }
+    ]
+}
