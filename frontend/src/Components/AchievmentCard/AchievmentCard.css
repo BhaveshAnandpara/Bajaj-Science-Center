@@ -1,0 +1,38 @@
+.achievementCon{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 30px;
+    background-color: var(--primary-color-light);
+    margin: 24px 0;
+    border-radius: 8px;
+}
+
+.achievementImg{
+    width: 20vw;
+    height: 25vw;
+    margin-right: 24px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.achievementImg > img {
+    height: 100%;
+}
+
+.AchievmentOverlay{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    background: linear-gradient(337.18deg, rgba(0, 0, 0, 0.7) -2.97%, rgba(0, 0, 0, 0) 91.65%);
+    border-radius: 8px;
+}
+
+.achievmentContent{
+    width: 73%;
+}
+
+.achievmentContent > p:nth-child(2){
+    text-align: justify;
+}

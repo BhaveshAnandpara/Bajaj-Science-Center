@@ -9,6 +9,8 @@ import Infrastructure from './Pages/Infrastructure/Infrastructure'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Admissions from './Pages/AdmissionPage/Admissions';
+import StudentsSection from './Pages/StudentSection/StudentsSection';
+import Achievement from './Pages/Achievement/Achievement';
 
 
 
@@ -28,6 +30,8 @@ function App() {
 					<Route exact path='/about/team' element={<Team />} />
 					<Route exact path='/admission' element={<Admissions />} />
 					<Route exact path='/infrastructure' element={<Infrastructure />} />
+					<Route exact path='/studentsection' element={<StudentsSection />} />
+					<Route exact path='/studentsection/achievements' element={<Achievement />} />
 				</Routes>
 
 				<Footer/>
