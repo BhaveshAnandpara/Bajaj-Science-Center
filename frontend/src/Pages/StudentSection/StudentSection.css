@@ -22,3 +22,19 @@
     align-items: center;
     flex-direction: column;
 }
+
+.simulationCon{
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.simulationCon > div {
+    margin: 24px 24px;
+}
+
+.labOverlay{
+    border-radius: 8px;
+}
