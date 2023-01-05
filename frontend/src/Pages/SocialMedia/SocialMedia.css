@@ -1,0 +1,59 @@
+.socialDiv {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px;
+}
+
+.socialDiv>img {
+    height: 30vh;
+    margin-right: 48px;
+}
+
+.socialsCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.socialDiv{
+    margin: 24px 0;
+}
+
+.SocialContent{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.socialHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.socialHeader > img {
+    transform: translateY(10%);
+    margin-right: 24px;
+}
+
+.socialHeader>div>p:first-child {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+}
+
+.socialHeader>div>p:last-child {
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000;
+    margin: 0;
+}

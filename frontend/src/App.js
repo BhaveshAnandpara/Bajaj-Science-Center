@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Admissions from './Pages/AdmissionPage/Admissions';
 import StudentsSection from './Pages/StudentSection/StudentsSection';
 import Achievement from './Pages/Achievement/Achievement';
+import SocialMedia from './Pages/SocialMedia/SocialMedia';
 
 
 
@@ -32,6 +33,7 @@ function App() {
 					<Route exact path='/infrastructure' element={<Infrastructure />} />
 					<Route exact path='/studentsection' element={<StudentsSection />} />
 					<Route exact path='/studentsection/achievements' element={<Achievement />} />
+					<Route exact path='/socialMedia' element={<SocialMedia />} />
 				</Routes>
 
 				<Footer/>
