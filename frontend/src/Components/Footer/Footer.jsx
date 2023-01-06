@@ -12,11 +12,12 @@ export default function Footer() {
             <section className="footer ">
 
                 <section className="header">
-
-                    <img src={logo} alt="logo" />
-                    <div className="orgName">
-                        <p>Gandhi Gyaan Mandir's	</p>
-                        <p>Bajaj Science Education Center</p>
+                    <div className="headerContent">
+                        <img src={logo} alt="logo" />
+                        <div className="orgName">
+                            <p>Gandhi Gyaan Mandir's	</p>
+                            <p>Bajaj Science Education Center</p>
+                        </div>
                     </div>
 
                 </section>
@@ -32,8 +33,8 @@ export default function Footer() {
 
                 <hr />
 
-    
-                <p style={{ textAlign : 'center' , fontWeight : 600 , margin : '24px 0px' , color: 'var(--gray) !important' }} >Copyright © 2021 All Rights Reserved by Pragmizers.</p>
+
+                <p style={{ textAlign: 'center', fontWeight: 600, margin: '24px 0px', color: 'var(--gray) !important' }} >Copyright © 2021 All Rights Reserved by Pragmizers.</p>
 
 
             </section>
