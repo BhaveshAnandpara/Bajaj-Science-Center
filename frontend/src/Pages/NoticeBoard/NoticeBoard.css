@@ -1,0 +1,24 @@
+.noticeSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.noticeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px 40px;
+}
+
+.noticeContainer > p{
+    font-size: 24px;
+    text-align: start;
+    width: 80%;
+}
+
+.noticeCon{
+    width: 80%;
+}

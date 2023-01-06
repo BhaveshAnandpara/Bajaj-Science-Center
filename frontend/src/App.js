@@ -12,6 +12,7 @@ import Admissions from './Pages/AdmissionPage/Admissions';
 import StudentsSection from './Pages/StudentSection/StudentsSection';
 import Achievement from './Pages/Achievement/Achievement';
 import SocialMedia from './Pages/SocialMedia/SocialMedia';
+import NoticeBoard from './Pages/NoticeBoard/NoticeBoard';
 
 
 
@@ -34,6 +35,7 @@ function App() {
 					<Route exact path='/studentsection' element={<StudentsSection />} />
 					<Route exact path='/studentsection/achievements' element={<Achievement />} />
 					<Route exact path='/socialMedia' element={<SocialMedia />} />
+					<Route exact path='/noticeBoard' element={<NoticeBoard />} />
 				</Routes>
 
 				<Footer/>
