@@ -15,3 +15,8 @@
     margin-right: 40px;
     color: var(--dark);
 }
+
+.active{
+    color: #3e3e3e;
+    font-weight: 700;
+}
