@@ -16,14 +16,14 @@
   }
 
 .headerContent{
-    transform: translateY(-25vh);
+    transform: translateY(-20vh);
     margin: 10px 30px;
     display: flex;
     align-items: center;
     flex-direction: row;
     user-select: none;
     width: max-content;
-    height: 10%;
+    height: 0%;
 }
 
 .headerContent > img {
